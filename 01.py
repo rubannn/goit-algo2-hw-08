@@ -1,6 +1,8 @@
 import random
 import time
 from functools import lru_cache
+
+
 def get_time(function):
     def wrapper(*args, **kwargs):
         start_time = time.perf_counter()
